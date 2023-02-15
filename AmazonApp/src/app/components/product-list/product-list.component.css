@@ -1,0 +1,22 @@
+.row{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    margin-left: 250px;
+  border: 1px solid maroon;
+    
+    
+}
+.box{
+   text-align: center;
+    width: 200px;
+    height: 200px;
+   
+   
+}
+
+
+.row img{
+    height: 40%;
+    width: 40%;
+}

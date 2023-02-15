@@ -1,13 +1,13 @@
-<div class="page-wrapper">
+<!-- <div class="page-wrapper">
 
     <!-- MENU SIDEBAR-->
-    <aside class="menu-sidebar d-none d-lg-block">
+<!-- <aside class="menu-sidebar d-none d-lg-block">
         <div class="logo">
             <a href="#">
                 <img src="assets/images/logo.png" alt="luv2shop" class="img-responsive">
             </a>
-        </div>
-        <div class="menu-sidebar-content js-scrollbar1">
+        </div> -->
+<!-- <div class="menu-sidebar-content js-scrollbar1">
             <nav class="navbar-sidebar">
                 <ul class="list-unstyled navbar-list">
                     <li>
@@ -25,13 +25,13 @@
                 </ul>
             </nav>
         </div>
-    </aside>
+    </aside> -->
 
-    <!-- END MENU SIDEBAR-->
-    <!-- PAGE CONTAINER-->
-    <div class="page-container">
+<!-- END MENU SIDEBAR-->
+<!-- PAGE CONTAINER-->
+<!-- <div class="page-container">
         <!-- HEADER DESKTOP-->
-        <header class="header-desktop">
+<!-- <header class="header-desktop">
             <div class="section-content section-content-p30">
                 <div class="container-fluid">
                     <div class="header-wrap">
@@ -41,8 +41,8 @@
                             <button class="au-btn-submit" type="submit">
                                 Search
                             </button>
-                        </form>
-                        <div class="cart-area d-n">
+                        </form> -->
+<!-- <div class="cart-area d-n">
                             <a href="shopping-detail.html">
                                 <div class="total">19.22 <span> 2</span> </div> <i class="fa fa-shopping-cart"
                                     aria-hidden="true"></i>
@@ -52,21 +52,66 @@
                     <div class="account-wrap"></div>
                 </div>
             </div>
-        </header>
-        <!-- END HEADER DESKTOP-->
+        </header> -->
+<!-- END HEADER DESKTOP-->
 
-        <!-- MAIN CONTENT-->
-        <router-outlet></router-outlet>
-        <!-- <app-product-list></app-product-list> -->
-    </div>
-</div>
+<!-- MAIN CONTENT-->
+<!-- <router-outlet></router-outlet> -->
+<!-- <app-product-list></app-product-list> -->
+<!-- </div>
+</div>  -->
 <!-- END PAGE CONTAINER-->
 
 
-<footer>
+<!-- <footer>
     <ul>
         <li><a href="#">About Us</a></li>
         <li><a href="#">Contact Us</a></li>
         <li><a href="#">Help</a></li>
     </ul>
-</footer>
+</footer> -->
+
+<!--My OWN CODE HERE-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love2Shop</title>
+    
+</head>
+
+<body>
+    <header>
+
+        <app-navbar></app-navbar>
+
+    </header>
+    <main>
+        <div class="flex-container">
+                
+            <div class="item-category">
+
+                <app-product-category></app-product-category>
+
+            </div>
+
+            <div class="item-product">
+
+                <app-product-list></app-product-list>
+
+            </div>
+        
+        </div>
+    </main>
+    <footer>
+
+        <app-footer></app-footer>
+
+    </footer>
+</body>
+
+</html>

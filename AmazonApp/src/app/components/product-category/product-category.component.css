@@ -1,0 +1,29 @@
+.list {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    border: 1px solid orange;
+}
+
+.list ul {
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    width: 100%;
+}
+
+
+
+.list ul li {
+    list-style: none;
+    padding: 5px;
+    padding-left: 50px;
+
+}
+
+.h {
+    text-align: center;
+    width: 100%;
+    color: brown;
+}

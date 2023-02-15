@@ -1,10 +1,10 @@
-/* 
+/* /* 
  * ----------------------------
  * Common CSS
  * ----------------------------
  */
 
- *{
+ /* *{
     margin:0;
     padding:0;
     -webkit-box-sizing:border-box;
@@ -97,10 +97,10 @@ a,a:hover{
     -o-transition:all .3s ease;
     -moz-transition:all .3s ease;
     transition:all .3s ease
-}
+} */
 
 /*Layout Css*/
-.section-content-p35{
+/* .section-content-p35{
     padding:0 35px
 }
 
@@ -133,7 +133,7 @@ aside.menu-sidebar.d-none.d-lg-block.clr{
  * ----------------------------
  */
 
-.header-desktop{
+/* .header-desktop{
     background:#0da8e4;
     -webkit-box-shadow:0 2px 5px 0 rgba(0,0,0,.1);
     -moz-box-shadow:0 2px 5px 0 rgba(0,0,0,.1);
@@ -220,9 +220,9 @@ section{
 input.au-input.au-input-xl{
     border-radius:40px!important;
     margin-right:15px
-}
+} */
 
-.au-input{
+/* .au-input{
     line-height:43px;
     border:1px solid #e5e5e5;
     font-size:14px;
@@ -268,17 +268,17 @@ input.au-input.au-input-xl{
     border-top-right-radius:20px;
     border-bottom-right-radius:20px;
     margin-left:11px
-}
+} */
 
-.form-header{
+/* .form-header{
     display:-webkit-box;
     display:-webkit-flex;
     display:-moz-box;
     display:-ms-flexbox;
     display:flex
-}
+} */
 
-.au-btn-submit{
+/* .au-btn-submit{
     position:relative;
     right:0;
     min-width:95px;
@@ -292,9 +292,9 @@ input.au-input.au-input-xl{
 
 .au-btn-submit:hover{
     background:#05143f
-}
+} */
 
-.au-btn-submit>i{
+/* .au-btn-submit>i{
     font-size:20px;
     color:#fff;
     position:absolute;
@@ -305,7 +305,7 @@ input.au-input.au-input-xl{
     -ms-transform:translate(-50%,-50%);
     -o-transform:translate(-50%,-50%);
     transform:translate(-50%,-50%)
-}
+} */ */
 
 /* 
  * ----------------------------
@@ -313,7 +313,7 @@ input.au-input.au-input-xl{
  * ----------------------------
  */
 
-.menu-sidebar{
+/* .menu-sidebar{
     width:200px;
     position:fixed;
     left:0;
@@ -379,7 +379,7 @@ input.au-input.au-input-xl{
 
 .navbar-sidebar .navbar-list li a:hover{
     color:#0da8e4
-}
+} */
 
 /* 
  * ----------------------------
@@ -387,7 +387,7 @@ input.au-input.au-input-xl{
  * ----------------------------
  */
 
-.header-mobile{
+/* .header-mobile{
     position:absolute;
     top:0;
     left:0;
@@ -485,8 +485,8 @@ input.au-input.au-input-xl{
 }
 .header-mobile .navbar-mobile .navbar-mobile-list li a>i{
     margin-right:19px
-}
-.navbar-mobile-sub-list{
+} */
+/* .navbar-mobile-sub-list{
     display:none;
     padding-left:30px;
     background:#fff
@@ -515,7 +515,7 @@ input.au-input.au-input-xl{
 }
 .main-content.page-m{
     padding:10% 15%!important
-}
+} */
 
 /* 
  * ----------------------------
@@ -527,7 +527,7 @@ input.au-input.au-input-xl{
     width: 150px;
 }
 
-.items select {
+/* .items select {
     width: 100px;
     height: 40px;
     border-radius: 40px;
@@ -557,7 +557,7 @@ input.au-input.au-input-xl{
     padding-bottom:0;
     font-weight:500;
     color:#585858
-}
+} */
 
 /* 
  * ----------------------------
@@ -565,7 +565,7 @@ input.au-input.au-input-xl{
  * ----------------------------
  */
 
-.form-area{
+/* .form-area{
     background:#e5e5e5;
     position:relative;
     margin-bottom:45px;
@@ -620,8 +620,8 @@ input.au-input.au-input-xl{
     position:absolute;
     opacity:0;
     cursor:pointer
-}
-.au-checkmark{
+} */
+/* .au-checkmark{
     position:absolute;
     top:0;
     left:0;
@@ -671,7 +671,7 @@ option:first{
 }
 select{
     color:#828482
-}
+} */
 
 /* 
  * ----------------------------
@@ -679,7 +679,7 @@ select{
  * ----------------------------
  */
 
-.table{
+/* .table{
     margin:0
 }
 table.table.table-bordered{
@@ -706,7 +706,7 @@ table.table.table-bordered th{
     margin-bottom:10px;
     outline:0;
     margin-left:5px
-}
+} */
 
 /* 
  * ----------------------------
@@ -714,14 +714,14 @@ table.table.table-bordered th{
  * ----------------------------
  */
 
- .price{
+ /* .price{
     margin:15px 0 0;
     font-weight:800;
     color:#0da8e4
 }
 .detail-section{
     margin-top:60px
-}
+} */
 /**/
 
 /* 
@@ -730,7 +730,7 @@ table.table.table-bordered th{
  * ----------------------------
  */
 
- .btn-info{
+ /* .btn-info{
     color:#fff;
     background-color:#0da8e4!important;
     border-color:#0da8e4!important
@@ -752,7 +752,7 @@ a.primary-btn:hover{
 
 .active-link {
   font-weight: bold;
-}
+} */
 
 /* 
  * ----------------------------
@@ -760,7 +760,7 @@ a.primary-btn:hover{
  * ----------------------------
  */
 
-footer ul li a{
+/* footer ul li a{
     color:#fff
 }
 footer{
@@ -777,7 +777,7 @@ footer ul li{
     display:inline-block;
     font-size:14px;
     padding:10px 20px
-}
+} */
 
 /* 
  * ----------------------------
@@ -785,7 +785,7 @@ footer ul li{
  * ----------------------------
  */
 
-@media (max-width:1600px){
+/* @media (max-width:1600px){
     .au-input-xl{
         min-width:290px
     }
@@ -808,9 +808,9 @@ footer ul li{
     .header-navbar ul li a i{
         margin-right:5px
     }
-}
+} */
 
-@media (min-width:1200px){
+/* @media (min-width:1200px){
     .container{
         max-width:1320px
     }
@@ -1034,4 +1034,85 @@ footer ul li{
         border:0;
         padding:8px 0
     }
+} */ 
+/* #navbar{
+    display: flex;
+    background-color: white;
+    border: 2px solid red;
+    height: 80px;
+    
 }
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    background-color: rgb(71, 71, 230);
+    height: 80px;
+    margin-top: 0px;
+    width: 100%;
+   
+    
+   
+    
+    
+}
+
+
+#navbar img{
+    height: 80px;
+    width: 200px;
+    background-color: rgb(249, 247, 247);
+}
+
+#navbar ul li{
+    list-style: none;
+   
+}
+
+
+
+.btn{
+    border: 2px solid black;
+    border-radius: 1.3rem;
+    padding: 10px 25px;
+    color: white;
+    background-color: lightskyblue;
+}
+
+.text{
+    border: 2px solid black;
+    border-radius: 1.2rem;
+    padding: 10px;
+    margin: 0px 10px;
+    width: 300px;
+}
+
+.cart{
+   margin: 0 45%;
+} */
+
+/* .main{
+    display: flex;
+}
+
+#list{
+    height: 460px;
+    width: 235px;
+    border: 2px solid black;
+}
+.body{
+    height: 460px;
+    border: 2px solid red;
+   width: 100%;
+}
+
+.footer ul{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid yellow;
+    height: 30px;
+    background-color: black;
+    color: white;
+} */

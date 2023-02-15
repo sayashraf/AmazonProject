@@ -7,6 +7,9 @@ import { ProductListComponent } from './components/product-list/product-list.com
 import {HttpClientModule} from '@angular/common/http';
 import { ProductService } from './services/product.service';
 import { Routes,RouterModule } from '@angular/router';
+import { ProductCategoryComponent } from './components/product-category/product-category.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 const routes:Routes=[
 {path:'category/:id', component:ProductListComponent},
@@ -20,6 +23,9 @@ const routes:Routes=[
   declarations: [
     AppComponent,
     ProductListComponent,
+    ProductCategoryComponent,
+    FooterComponent,
+    NavbarComponent,
     
   ],
   imports: [
